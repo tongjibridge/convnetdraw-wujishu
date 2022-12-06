@@ -83,31 +83,31 @@ var convnetdraw = { REVISION: 'ALPHA' };
         },
 
         input: function (dim0, dim1, dim2) {
-            this.drawItem("input", dim0, dim1, dim2, "#00c8fa");
+            this.drawItem("input", dim0, dim1, dim2, "#1A2847");
         },
 
         conv: function (dim0, dim1, dim2) {
-            this.drawItem("conv", dim0, dim1, dim2, "#5bc3c4");
+            this.drawItem("conv", dim0, dim1, dim2, "#3D8E86");
         },
 
         relu: function (dim0, dim1, dim2) {
-            this.drawItem("conv", dim0, dim1, dim2, "#ffc33f");
+            this.drawItem("conv", dim0, dim1, dim2, "#3D8E86");
         },
 
         pool: function (dim0, dim1, dim2) {
-            this.drawItem("pool", dim0, dim1, dim2, "#f9e3b4");
+            this.drawItem("pool", dim0, dim1, dim2, "#EBE1A9");
         },
 
         fullyconn: function (dim0, dim1, dim2) {
-            this.drawItem("pool", dim0, dim1, dim2, "#fe4d66");
+            this.drawItem("pool", dim0, dim1, dim2, "#EBE1A9");
         },
 
         softmax: function (dim0, dim1, dim2) {
-            this.drawItem("pool", dim0, dim1, dim2, "#ffe4d66");
+            this.drawItem("pool", dim0, dim1, dim2, "#EBE1A9");
         },
 
         generic: function (text, dim0, dim1, dim2) {
-            this.drawItem("conv", dim0, dim1, dim2, "#00c8fa");
+            this.drawItem("conv", dim0, dim1, dim2, "#E67762");
         },
 
         // Colour adjustment function
